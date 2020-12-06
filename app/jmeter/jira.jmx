@@ -9545,7 +9545,7 @@ vars.put(&quot;random_page&quot;, String.valueOf(random_page));</stringProp>
                 <boolProp name="IfController.useExpression">true</boolProp>
               </IfController>
               <hashTree>
-                <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="100 /jira/secure/RapidBoard.jspa?rapidView=66&amp;view=detail&amp;selectedIssue=SCRUM-1" enabled="true">
+                <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="100 /secure/RapidBoard.jspa?rapidView=66&amp;view=detail&amp;selectedIssue=SCRUM-1" enabled="true">
                   <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                     <collectionProp name="Arguments.arguments"/>
                   </elementProp>
@@ -9553,7 +9553,7 @@ vars.put(&quot;random_page&quot;, String.valueOf(random_page));</stringProp>
                   <stringProp name="HTTPSampler.port"></stringProp>
                   <stringProp name="HTTPSampler.protocol"></stringProp>
                   <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-                  <stringProp name="HTTPSampler.path">${application.postfix}/jira/secure/RapidBoard.jspa?rapidView=66&amp;view=detail&amp;selectedIssue=SCRUM-1</stringProp>
+                  <stringProp name="HTTPSampler.path">${application.postfix}/secure/RapidBoard.jspa?rapidView=66&amp;view=detail&amp;selectedIssue=SCRUM-1</stringProp>
                   <stringProp name="HTTPSampler.method">GET</stringProp>
                   <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
                   <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
